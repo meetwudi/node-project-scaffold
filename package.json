@@ -1,0 +1,42 @@
+{
+    "name": "sample-proj",
+    "preferGlobal": true,
+    "version": "0.0.0",
+    "author": "Your name <your@email.address.com>",
+    "description": "description",
+    "contributors": [ 
+        {
+            "name": "Your name",
+            "email": "your@email.address.com"
+        } 
+    ],
+    "bin": {
+        "strsim": "./bin/sample-proj"
+    },
+    "scripts": {
+        "start": "node ./bin/sample-proj",
+        "test": "mocha -R spec"
+    },
+    "main": "./bin/sample-proj",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-github-name/sample-proj"
+    },
+    "keywords": [
+        "Keyword 1",
+        "Keyword 2"
+    ],
+    "dependencies" : {
+    },
+    "analyze": false,
+    "devDependencies": {
+        "mocha" : "*",
+        "should" : "*"
+    },
+    "bundledDependencies": [
+    ],  
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.8"
+    }
+}

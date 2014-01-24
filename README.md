@@ -3,8 +3,11 @@ A good start point for node project.
 
 #Tools
 
-- linter : jshint
-- CI : travis
+- linter: jshint
+- CI: travis
+- Task Runner: Grunt
+- Test Runner: Mocha
+- Assertion library: should
 
 #Requirements
 
